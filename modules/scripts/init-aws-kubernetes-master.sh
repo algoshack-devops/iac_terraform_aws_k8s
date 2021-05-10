@@ -267,5 +267,5 @@ kubectl apply -f /tmp/jenkins_role_permission.yaml --namespace devops
 
 # Create Jenkins persistent Volume
 kubectl apply -f /tmp/jenkins_volume.yaml --namespace devops
-helm upgrade --install jenkins stable/jenkins  --values https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/main/modules/templates/jenkins-values.yml --namespace devops
+helm upgrade --install jenkins stable/jenkins  --values https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/master/modules/templates/jenkins-values.yml --namespace devops
 kubectl get pods --namespace devops
