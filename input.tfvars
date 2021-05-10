@@ -23,10 +23,10 @@ hosted_zone             = "algoshack.com"
 hosted_zone_private     = false
 
 addons = [
-    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/main/k8s-addions/k8s-dashboard.yaml",
-    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/main/k8s-addions/k8s-heapster.yaml",
-    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/main/k8s-addions/k8s-autoscaler.yaml",
-    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/main/k8s-addions/k8s-storageclass.yaml"
+    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/master/k8s-addions/k8s-dashboard.yaml",
+    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/master/k8s-addions/k8s-heapster.yaml",
+    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/master/k8s-addions/k8s-autoscaler.yaml",
+    "https://raw.githubusercontent.com/algoshack-devops/iac_terraform_aws_k8s/master/k8s-addions/k8s-storageclass.yaml"
 ]
 
 k8s_master_tags = {
